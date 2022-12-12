@@ -18,8 +18,8 @@
 
 .main{
   width: 960px;
-  height: 1400px;
-  background-color: purple;
+  /*height: 1400px;*/
+  /*background-color: purple;*/
   display: flex;
   justify-content:center;
   margin: 0 auto;
