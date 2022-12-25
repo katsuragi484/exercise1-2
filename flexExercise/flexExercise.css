@@ -1,0 +1,71 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+header{
+  width: 100%;
+  padding: 30px 20px;
+  display: flex;
+  justify-content:flex-end;
+  background-color: #e23ef6;
+}
+
+.header-box{
+  flex-basis:140px;
+  height: 70px;
+  background-color: #f5b3f5;
+  margin:0 10px;
+}
+
+header > :first-child{
+  margin-right: auto;
+}
+
+main{
+  display: flex;
+  justify-content:center;
+}
+
+.main-left{
+  background-color: #e0fdbc;
+  width: 300px;
+}
+
+.main-right{
+  max-width: 700px;
+  flex-grow:1;
+  background-color: #5db041;
+  padding:20px;
+  display: flex;
+  flex-wrap:wrap;/*回答確認*/
+  justify-content:center;/*回答確認*/
+  /*align-content:flex-end;*//*回答確認*/
+}
+
+.main-right-box{
+  margin:10px;
+  background-color: #faf675	;
+  flex-basis:200px;
+  height: 130px;
+  /*flex-wrap:wrap;*//*回答確認*/
+
+}
+
+footer{
+  width: 100%;
+  padding:20px;
+  background-color: #759ff7;
+  display:flex;/*回答確認*/
+  flex-wrap:wrap;/*回答確認*/
+  justify-content:center;/*回答確認*/
+}
+
+.footer-box{
+  height: 40px;
+  margin:10px;
+  flex-basis:45%;/*回答はwidth:45%;*/
+  max-width: 600px;
+  background-color: #c4e5fc;
+}
